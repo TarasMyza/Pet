@@ -1,5 +1,5 @@
 public class Aspirant extends Student{
-    String researchWork;
+    private String researchWork;
 
     public Aspirant(String firstName, String lastName, int type, int averageMark) {
         super(firstName, lastName, type, averageMark);

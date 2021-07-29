@@ -1,7 +1,10 @@
 public class Bookkeeper {
 
-    public static String calcScholarship(String lastName, int type, int averageMark){
+    public static String calcScholarship(Student student){
         int scholarship = 0;
+        int averageMark = student.getAverageMark();
+        int type = student.getType();
+        String lastName = student.getLastName();
         String result;
         if (type == 1) {
             if (averageMark >= 90) {

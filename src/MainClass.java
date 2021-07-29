@@ -11,7 +11,7 @@ public class MainClass {
         };
 
         for (int i = 0; i < students.length; i++) {
-            System.out.println(Bookkeeper.calcScholarship(students[i].lastName, students[i].type, students[i].averageMark));
+            System.out.println(Bookkeeper.calcScholarship(students[i]));
         }
     }
 }
